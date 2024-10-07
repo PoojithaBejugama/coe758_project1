@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.xst" -ofn "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.syr" 

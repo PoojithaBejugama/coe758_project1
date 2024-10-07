@@ -1,0 +1,134 @@
+Release 13.4 - xst O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: CPU_gen.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU_gen.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU_gen"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : CPU_gen
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" in Library work.
+ERROR:HDLParsers:808 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 66. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 69. = can not have such operands in this context.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 104. Type of cs is incompatible with type of '0'.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 107. Type of cs is incompatible with type of '0'.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 110. Type of cs is incompatible with type of '1'.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 113. Type of cs is incompatible with type of '1'.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 116. Type of cs is incompatible with type of '1'.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 119. Type of cs is incompatible with type of '1'.
+ERROR:HDLParsers:808 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 131. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 134. = can not have such operands in this context.
+ERROR:HDLParsers:808 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 136. + can not have such operands in this context.
+ERROR:HDLParsers:808 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 173. = can not have such operands in this context.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 174. Type of rReg1 is incompatible with type of trig.
+ERROR:HDLParsers:808 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 181. = can not have such operands in this context.
+ERROR:HDLParsers:800 - "/home/student2/p3debnat/Desktop/project1_758_draft1/CPU_gen.vhd" Line 199. Type of wr_rd is incompatible with type of patOut.
+--> 
+
+
+Total memory usage is 614712 kilobytes
+
+Number of errors   :   15 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
