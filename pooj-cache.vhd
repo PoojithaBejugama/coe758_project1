@@ -125,7 +125,7 @@ begin
 debug_addr_to_sram <= C_addr;
 --cache memory
  
-	Inst_Cache_SRAM: Cache_SRAM PORT MAP(
+	Cache_SRAM: Cache_SRAM PORT MAP(
 		ADDR => C_addr,
 		WEN => WEN,
 		Din => SRAM_Din,
